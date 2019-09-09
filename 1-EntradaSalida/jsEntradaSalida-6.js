@@ -17,6 +17,7 @@ function sumar()
     suma = num1 + num2;
 
     alert("La suma es "+ suma);
+   
 }
 
 /* 
@@ -26,8 +27,8 @@ tambien se puede hacer:
     var num2;
     var suma;
 
-    num1 = ParseInt(document.getElementById("numeroUno").value);
-    num2 = ParseInt(document.getElementById("numeroDos").value);
+    num1 = parseInt(document.getElementById("numeroUno").value);
+    num2 = parseInt(document.getElementById("numeroDos").value);
     
     suma = num1 + num2;
 
