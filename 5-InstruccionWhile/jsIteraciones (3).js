@@ -1,7 +1,11 @@
-function mostrar()
-{
+function mostrar() {
 
-var clave = prompt("ingrese el número clave.");
+    var FormIngreso = prompt("ingrese el número clave.");
 
+    while (FormIngreso != "utn750") {
+        
+        FormIngreso = prompt("ingrese el número clave.");
+        console.log(FormIngreso);
 
+    }
 }//FIN DE LA FUNCIÓN

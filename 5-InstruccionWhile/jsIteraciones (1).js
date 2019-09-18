@@ -1,8 +1,8 @@
 function mostrar()
 {
-	var contador = 0;
+	var contador = 1;
 
-	while (contador < 10) {
+	while (contador < 11) {
 	
 	console.log("cont:" + contador);
 	/*si queremos hacer un corte en el contador. 
