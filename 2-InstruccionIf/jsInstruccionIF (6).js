@@ -6,7 +6,7 @@ var edad;
     
 edad = parseInt(document.getElementById('edad').value);
 
-console.log(typeof edad); // sireve para mostrar en la consola  el tipo de dato, en este caso string
+console.log(typeof edad); 
 /*
 if(edad >= 18)
 {

@@ -5,7 +5,7 @@ function mostrar()
 	while (contador < 10) {
 	
 	console.log("cont:" + contador);
-	/* si queremos hacer un corte en el contador. 
+	/*si queremos hacer un corte en el contador. 
 	if(contador == 4){
 		break; // ver como funciona el: "continue;""
 	}

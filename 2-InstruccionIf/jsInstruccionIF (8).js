@@ -2,15 +2,11 @@ function mostrar()
 {
 //tomo la edad  
 
+var edad = parseInt(document.getElementById('edad').value);
+var estado = document.getElementById('estadoCivil').value;
 
-    var max = 10;
-    var min = 1;
-    var num = Math.floor(Math.random() * ((max+1)- min) + min);
-    //                                       11  - 1    +  1
-    //math.floor me devuelve el nùmero redondeado hacia abajo.
-    // math.ceil()
-    //math.round()
-    alert(num);
-
+if (edad >= 18 && estado == "Soltero") {
+    alert("Es soltero y no es menor");
+}
 
 }//FIN DE LA FUNCIÓN

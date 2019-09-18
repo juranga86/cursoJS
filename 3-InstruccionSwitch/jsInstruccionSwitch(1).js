@@ -1,23 +1,23 @@
 function mostrar()
 {
-//tomo la edad  
+ 
 var mes = document.getElementById('mes').value; 
 
 switch (mes) {
     case "Enero":
-        alert("verano");
-        breack;
+        alert("que comiences bien el año!!!");
+        breack; //breack me saca de la estructura del switch
     case "Marzo":
-        alert("a Clases");
+        alert("a clases!!!");
         breack;
     case "Julio":
-        alert("se vienen las vacaciones");
+        alert("se vienen las vacaciones!!!");
         breack;
     case "Diciembre":
-        alert("FELICES FIESTAS!!!");
+        alert("Felices fiestas! !!");
         breack;
-    default: //agregamos para ver como funciona.
-        alert("defoult");
+    default: //agregamos para ver como funciona "default".
+        alert("defoult"); // el 'default' no lleva 'breack'
 
 }
 
